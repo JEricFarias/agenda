@@ -1,0 +1,10 @@
+@CHARSET "utf-8";
+
+section{
+	padding-top: 300px;
+	z-index: 1;
+}
+
+table .th{
+	font-weight: bold;
+}

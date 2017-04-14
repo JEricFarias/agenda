@@ -1,0 +1,40 @@
+@CHARSET "utf-8";
+
+.header{
+	background-color: #3075C9;
+	color: AliceBlue;
+	font-family: Courier;
+	height: 150px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.titulo{
+	padding-top: 50px;
+	margin-left: 30px;
+	position: relative;
+	display: inline-block;
+}
+
+.header nav{
+	float:right;
+}
+
+.header span{
+	border: solid 1px AliceBlue;
+	border-radius: 2px;
+	padding: 10px 20px;
+	font-weight: bolder;
+	display: inline-block;
+	margin-top: 47px;
+	margin-right: 30px;
+	transition: backgound-color 0.3s, color 0.3s;
+	cursor: pointer;
+}
+
+.hearder span:hover{
+	background-color: AliceBlue;
+	color: #3075C9;
+}
+
